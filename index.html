@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup and Login</title>
+</head>
+<body>
+    <h1>Signup</h1>
+    <form action="signup.php" method="POST">
+        <label for="signup-username">Username:</label>
+        <input type="text" id="signup-username" name="signup-username" required><br>
+
+        <label for="signup-password">Password:</label>
+        <input type="password" id="signup-password" name="signup-password" required><br>
+
+        <input type="submit" value="Signup">
+    </form>
+
+    <h1>Login</h1>
+    <form action="login.php" method="POST">
+        <label for="login-username">Username:</label>
+        <input type="text" id="login-username" name="login-username" required><br>
+
+        <label for="login-password">Password:</label>
+        <input type="password" id="login-password" name="login-password" required><br>
+
+        <input type="submit" value="Login">
+    </form>
+</body>
+</html>
